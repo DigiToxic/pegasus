@@ -72,7 +72,7 @@ function HowToBuy() {
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 1, duration: 0.4 }}
-            className="flex justify-center items-center px-10 max-[700px]:mb-5 max-[450px]:mb-8"
+            className="flex justify-center items-center px-10 max-[700px]:mb-5"
           >
             <div className="border-2 rounded-full mb-28 mr-5">
               <p className="py-1 px-2.5 shadow-md shadow-[rgb(123,204,255)] rounded-full">
