@@ -120,7 +120,7 @@ function HowToBuy() {
       </div>
 
       <img
-        className="absolute right-14 mr-4 bottom-3 w-80 rounded-xl"
+        className="absolute right-0 bottom-3 w-72 rounded-xl"
         src="/pegasus image3.png"
         alt=""
       />

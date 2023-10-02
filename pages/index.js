@@ -29,10 +29,10 @@ export default function Home() {
             transition={{ delay: 0.3, duration: 0.4 }}
           >
             <p className="text-center text-lg">
-              The cryptocurrency phenomenon that's not just a coin, it's a
+              The cryptocurrency phenomenon that&apos;s not just a coin, it&apos;s a
               movement! Built on a foundation of community, fun, and innovation,
               $Pegasus is poised to revolutionize the crypto space. With a
-              passionate and growing community of like-minded individuals, we're
+              passionate and growing community of like-minded individuals, we&apos;re
               breaking free from the conventional to create a new era of digital
               currency.
             </p>
