@@ -36,7 +36,7 @@ function Tokenomics() {
         >
           <p className="text-lg mb-12">
             $Pegasus will have a 3/3 tax aimed at fostering continuous
-            development and effective marketing to ensure the project's growth
+            development and effective marketing to ensure the project&apos;s growth
             and success.
             <br />
             <br />
