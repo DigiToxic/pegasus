@@ -20,7 +20,7 @@ function Roadmap() {
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
           transition={{ delay: 0.6, duration: 0.4 }}
-          className="border-2 rounded-lg px-8 py-10 border-[#ffffff71] hover:border-white ease-in-out duration-300 shadow-md shadow-[rgb(123,204,255)] max-[1200px]:px-3 max-[975px]:px-8 max-[975px]:px-[75px] max-[415px]:px-[40px] max-[975px]:mb-20"
+          className="border-2 rounded-lg px-8 py-10 border-[#ffffff71] hover:border-white ease-in-out duration-300 shadow-md shadow-[rgb(123,204,255)] max-[1200px]:px-3 max-[975px]:px-[75px] max-[415px]:px-[40px] max-[975px]:mb-20"
         >
           <p className="text-2xl font-bold">Phase 1</p>
           <div className="flex justify-start items-center mt-10">
@@ -57,7 +57,7 @@ function Roadmap() {
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
           transition={{ delay: 0.9, duration: 0.4 }}
-          className="border-2 rounded-lg px-8 py-10 border-[#ffffff71] hover:border-white ease-in-out duration-300 shadow-md shadow-[rgb(123,204,255)] max-[1200px]:px-3 max-[975px]:px-8 max-[975px]:px-[51px] max-[975px]:mb-20 max-[415px]:px-[16px]"
+          className="border-2 rounded-lg px-8 py-10 border-[#ffffff71] hover:border-white ease-in-out duration-300 shadow-md shadow-[rgb(123,204,255)] max-[1200px]:px-3 max-[975px]:px-[51px] max-[975px]:mb-20 max-[415px]:px-[16px]"
         >
           <p className="text-2xl font-bold">Phase 2</p>
           <div className="flex justify-start items-center mt-10">
@@ -94,7 +94,7 @@ function Roadmap() {
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
           transition={{ delay: 1.2, duration: 0.4 }}
-          className="border-2 rounded-lg px-8 py-10 border-[#ffffff71] hover:border-white ease-in-out duration-300 shadow-md shadow-[rgb(123,204,255)] max-[1200px]:px-3 max-[975px]:px-8 max-[975px]:px-8 max-[415px]:px-2"
+          className="border-2 rounded-lg px-8 py-10 border-[#ffffff71] hover:border-white ease-in-out duration-300 shadow-md shadow-[rgb(123,204,255)] max-[1200px]:px-3 max-[975px]:px-8 max-[415px]:px-2"
         >
           <p className="text-2xl font-bold">Phase 3</p>
           <div className="flex justify-start items-center mt-10">
@@ -115,7 +115,7 @@ function Roadmap() {
             <div className="border-[3px] border-[#263F5F] rounded-full p-2">
               <div className="bg-[#8ECBDF] p-1 rounded-full" />
             </div>
-            <p className="text-lg ml-2">$1M Market Cap</p>
+            <p className="text-lg ml-2">$3M Market Cap</p>
           </div>
 
           <div className="flex justify-start items-center mt-10">

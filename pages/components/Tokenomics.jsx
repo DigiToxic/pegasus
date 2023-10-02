@@ -66,7 +66,7 @@ function Tokenomics() {
             <div className="border-[3px] border-[#263F5F] rounded-full p-2">
               <div className="bg-[#8ECBDF] p-1 rounded-full" />
             </div>
-            <p className="text-lg ml-2">Liquidity locked at 20k MC</p>
+            <p className="text-lg ml-2">Liquidity locked at 50k MC</p>
           </div>
 
           <div className="flex justify-start items-center mt-5">
