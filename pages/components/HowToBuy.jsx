@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function HowToBuy() {
   return (
-    <div className="h-screen relative max-[800px]:h-full" id="How to buy">
+    <div className="h-full relative" id="How to buy">
       <motion.div
         initial={{ opacity: 0, y: "-30%" }}
         whileInView={{ opacity: 1, y: "0%" }}

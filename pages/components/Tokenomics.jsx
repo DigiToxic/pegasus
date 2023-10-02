@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function Tokenomics() {
   return (
-    <div className="h-screen max-[500px]:h-full" id="Tokenomics">
+    <div className="h-full" id="Tokenomics">
       <motion.div
         initial={{ opacity: 0, y: "-30%" }}
         whileInView={{ opacity: 1, y: "0%" }}

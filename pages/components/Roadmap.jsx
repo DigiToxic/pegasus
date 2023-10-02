@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function Roadmap() {
   return (
-    <div className="h-screen max-[975px]:h-full" id="Roadmap">
+    <div className="h-full" id="Roadmap">
       <motion.div
         initial={{ opacity: 0, y: "-30%" }}
         whileInView={{ opacity: 1, y: "0%" }}

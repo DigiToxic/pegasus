@@ -90,19 +90,19 @@ export default function Home() {
 
       <Tokenomics />
 
-      <div className="flex justify-center items-center py-32">
+      <div className="flex justify-center items-center py-44">
         <div className="border-2 w-3/4" />
       </div>
 
       <Roadmap />
 
-      <div className="flex justify-center items-center py-32">
+      <div className="flex justify-center items-center py-44">
         <div className="border-2 w-3/4" />
       </div>
 
       <HowToBuy />
 
-      <div className="flex justify-center items-center py-32">
+      <div className="flex justify-center items-center py-44">
         <div className="border-2 w-3/4" />
       </div>
 
