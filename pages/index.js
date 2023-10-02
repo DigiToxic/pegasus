@@ -16,7 +16,7 @@ export default function Home() {
             initial={{ opacity: 0, y: "-30%" }}
             whileInView={{ opacity: 1, y: "0%" }}
             viewport={{ once: true }}
-            transition={{ delay: 0.3, duration: 0.4 }}
+            transition={{ delay: 0.6, duration: 0.4 }}
           >
             <p className="text-[60px] font-bold mb-10 text-center">
               Introducing <span className="gradient-text">$Pegasus</span>
@@ -26,7 +26,7 @@ export default function Home() {
             initial={{ opacity: 0, y: "-30%" }}
             whileInView={{ opacity: 1, y: "0%" }}
             viewport={{ once: true }}
-            transition={{ delay: 0.3, duration: 0.4 }}
+            transition={{ delay: 0.9, duration: 0.4 }}
           >
             <p className="text-center text-lg">
               The cryptocurrency phenomenon that&apos;s not just a coin,
@@ -42,7 +42,7 @@ export default function Home() {
               initial={{ opacity: 0, x: "-30%" }}
               whileInView={{ opacity: 1, x: "0%" }}
               viewport={{ once: true }}
-              transition={{ delay: 0.3, duration: 0.4 }}
+              transition={{ delay: 1.1, duration: 0.4 }}
               className="rounded-bl-[35px] rounded-lg border-2 px-8 py-1.5 pr-5
               flex cursor-pointer shadow-md shadow-[rgb(123,204,255)]
               hover:bg-[#263F5F] hover:translate-y-2 hover:shadow-none max-[615px]:rounded-tl-[35px] max-[615px]:rounded-bl-[0px] max-[615px]:mb-5"
@@ -54,7 +54,7 @@ export default function Home() {
               initial={{ opacity: 0, x: "-30%" }}
               whileInView={{ opacity: 1, x: "0%" }}
               viewport={{ once: true }}
-              transition={{ delay: 0.3, duration: 0.4 }}
+              transition={{ delay: 1.2, duration: 0.4 }}
               className="rounded-lg border-2 px-8 py-1.5 flex cursor-pointer shadow-md shadow-[rgb(123,204,255)] hover:bg-[#263F5F] hover:translate-y-2 hover:shadow-none max-[615px]:mb-5"
             >
               <p className="text-xl">DexScreener</p>
@@ -64,7 +64,7 @@ export default function Home() {
               initial={{ opacity: 0, x: "-30%" }}
               whileInView={{ opacity: 1, x: "0%" }}
               viewport={{ once: true }}
-              transition={{ delay: 0.3, duration: 0.4 }}
+              transition={{ delay: 1.3, duration: 0.4 }}
               className="rounded-br-[35px] rounded-lg border-2 px-8 py-1.5 pr-9 flex cursor-pointer shadow-md shadow-[rgb(123,204,255)] hover:bg-[#263F5F] hover:translate-y-2 hover:shadow-none"
             >
               <p className="text-xl">DexSpy</p>
@@ -77,7 +77,7 @@ export default function Home() {
           initial={{ opacity: 0, x: "50%" }}
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
-          transition={{ delay: 0.3, duration: 0.4 }}
+          transition={{ delay: 1.5, duration: 0.4 }}
           className="absolute right-0 bottom-0 max-[1169px]:-z-10"
         >
           <img
@@ -102,7 +102,7 @@ export default function Home() {
 
       <HowToBuy />
 
-      <div className="flex justify-center items-center py-44">
+      <div className="flex justify-center items-center pt-44 pb-12">
         <div className="border-2 w-3/4" />
       </div>
 

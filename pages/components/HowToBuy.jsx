@@ -20,7 +20,7 @@ function HowToBuy() {
             initial={{ opacity: 0, x: "-30%" }}
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
-            transition={{ delay: 0.3, duration: 0.4 }}
+            transition={{ delay: 0.6, duration: 0.4 }}
             className="flex justify-center items-center px-10 max-[700px]:mb-5 max-[500px]:mb-10"
           >
             <div className="border-2 rounded-full mb-28 mr-5">
@@ -46,7 +46,7 @@ function HowToBuy() {
             initial={{ opacity: 0, x: "-30%" }}
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
-            transition={{ delay: 0.3, duration: 0.4 }}
+            transition={{ delay: 0.8, duration: 0.4 }}
             className="flex justify-center items-center px-10 max-[700px]:mb-5 max-[500px]:mb-10"
           >
             <div className="border-2 rounded-full mb-28 mr-5">
@@ -71,7 +71,7 @@ function HowToBuy() {
             initial={{ opacity: 0, x: "-30%" }}
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
-            transition={{ delay: 0.3, duration: 0.4 }}
+            transition={{ delay: 1, duration: 0.4 }}
             className="flex justify-center items-center px-10 max-[700px]:mb-5 max-[450px]:mb-8"
           >
             <div className="border-2 rounded-full mb-28 mr-5">
@@ -96,7 +96,7 @@ function HowToBuy() {
             initial={{ opacity: 0, x: "-30%" }}
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
-            transition={{ delay: 0.3, duration: 0.4 }}
+            transition={{ delay: 1.2, duration: 0.4 }}
             className="flex justify-center items-center px-10"
           >
             <div className="border-2 rounded-full mb-28 mr-5">

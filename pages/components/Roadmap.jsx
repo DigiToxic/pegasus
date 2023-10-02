@@ -19,7 +19,7 @@ function Roadmap() {
           initial={{ opacity: 0, x: "-30%" }}
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
-          transition={{ delay: 0.3, duration: 0.4 }}
+          transition={{ delay: 0.6, duration: 0.4 }}
           className="border-2 rounded-lg px-8 py-10 border-[#ffffff71] hover:border-white ease-in-out duration-300 shadow-md shadow-[rgb(123,204,255)] max-[1200px]:px-3 max-[975px]:px-8 max-[975px]:px-[75px] max-[415px]:px-[40px] max-[975px]:mb-20"
         >
           <p className="text-2xl font-bold">Phase 1</p>
@@ -56,7 +56,7 @@ function Roadmap() {
           initial={{ opacity: 0, x: "-30%" }}
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
-          transition={{ delay: 0.3, duration: 0.4 }}
+          transition={{ delay: 0.9, duration: 0.4 }}
           className="border-2 rounded-lg px-8 py-10 border-[#ffffff71] hover:border-white ease-in-out duration-300 shadow-md shadow-[rgb(123,204,255)] max-[1200px]:px-3 max-[975px]:px-8 max-[975px]:px-[51px] max-[975px]:mb-20 max-[415px]:px-[16px]"
         >
           <p className="text-2xl font-bold">Phase 2</p>
@@ -93,7 +93,7 @@ function Roadmap() {
           initial={{ opacity: 0, x: "-30%" }}
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
-          transition={{ delay: 0.3, duration: 0.4 }}
+          transition={{ delay: 1.2, duration: 0.4 }}
           className="border-2 rounded-lg px-8 py-10 border-[#ffffff71] hover:border-white ease-in-out duration-300 shadow-md shadow-[rgb(123,204,255)] max-[1200px]:px-3 max-[975px]:px-8 max-[975px]:px-8 max-[415px]:px-2"
         >
           <p className="text-2xl font-bold">Phase 3</p>

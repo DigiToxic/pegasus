@@ -19,7 +19,7 @@ function Tokenomics() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ delay: 0.3, duration: 0.4 }}
+          transition={{ delay: 0.9, duration: 0.4 }}
           className="max-[1169px]:absolute max-[1169px]:-z-1"
         >
           <img
@@ -32,7 +32,7 @@ function Tokenomics() {
           initial={{ opacity: 0, x: "30%" }}
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
-          transition={{ delay: 0.3, duration: 0.4 }}
+          transition={{ delay: 0.6, duration: 0.4 }}
           className="w-[40%] max-[1169px]:w-5/6"
         >
           <p className="text-lg mb-12">
