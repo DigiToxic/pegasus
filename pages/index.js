@@ -2,7 +2,6 @@ import Header from "./components/Header";
 import Tokenomics from "./components/Tokenomics";
 import Roadmap from "./components/Roadmap";
 import HowToBuy from "./components/HowToBuy";
-import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function Home() {
