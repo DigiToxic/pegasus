@@ -39,7 +39,7 @@ function MobileNav({ open }: MobileNavProps) {
         </a>
 
         <Link
-          href="https://twitter.com/buydipcoin"
+          href="https://twitter.com/PegasusCoinETH"
           rel="noreferrer"
           target="_blank"
           className="my-4"
