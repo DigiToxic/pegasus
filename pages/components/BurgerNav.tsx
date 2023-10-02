@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ScrollButton from "./ScrollButton";
+import Link from "next/link";
 
 interface MobileNavProps {
   open: boolean;
@@ -22,30 +23,32 @@ function MobileNav({ open }: MobileNavProps) {
     >
       <div className="flex flex-col justify-start items-start mt-10 p-5">
         <a className="my-4 border-b border-[rgb(123,204,255)] w-full">
-          <ScrollButton targetId="Services">
-            <p className="text-lg mb-4">Services</p>
+          <ScrollButton targetId="Tokenomics">
+            <p className="text-lg mb-4">Tokenomics</p>
           </ScrollButton>
         </a>
         <a className="my-4 border-b border-[rgb(123,204,255)] w-full">
-          <ScrollButton targetId="Partner">
-            <p className="text-lg mb-4">Partner</p>
+          <ScrollButton targetId="Roadmap">
+            <p className="text-lg mb-4">Roadmap</p>
           </ScrollButton>
         </a>
         <a className="my-4 border-b border-[rgb(123,204,255)] w-full">
-          <ScrollButton targetId="Team">
-            <p className="text-lg mb-4">Team</p>
+          <ScrollButton targetId="How to buy">
+            <p className="text-lg mb-4">How to buy</p>
           </ScrollButton>
         </a>
-        <a className="my-4 border-b border-[rgb(123,204,255)] w-full">
-          <ScrollButton targetId="Testimonal">
-            <p className="text-lg mb-4">Portfolio</p>
-          </ScrollButton>
-        </a>
-        <a className="my-4 border-b border-[rgb(123,204,255)] w-full">
-          <ScrollButton targetId="Contact">
-            <p className="text-lg mb-4">Contact Us</p>
-          </ScrollButton>
-        </a>
+
+        <Link
+          href="https://twitter.com/buydipcoin"
+          rel="noreferrer"
+          target="_blank"
+          className="my-4"
+        >
+          <img src="/logo/twAsset_21.svg" className="w-8 my-2 cursor-pointer" alt="" />
+        </Link>
+        <Link href="https://t.me/PegasusCoinETH" rel="noreferrer" target="_blank">
+          <img src="/logo/tgAsset_22.svg" className="w-8 my-2 cursor-pointer" alt="" />
+        </Link>
       </div>
     </div>
   ) : null;

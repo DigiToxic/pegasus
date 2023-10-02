@@ -36,14 +36,14 @@ function Header() {
         </div>
       </div>
       <div className="flex justify-center items-center max-[1000px]:hidden">
-        <Link href="" rel="noreferrer" target="_blank">
+        <Link href="https://twitter.com/PegasusCoinETH" rel="noreferrer" target="_blank">
           <img
             className="w-7 mr-4 hover:scale-110 ease-in-out duration-300"
             src="/logo/twAsset_21.svg"
             alt=""
           />
         </Link>
-        <Link href="" rel="noreferrer" target="_blank">
+        <Link href="https://t.me/PegasusCoinETH" rel="noreferrer" target="_blank">
           <img
             className="w-7 mr-10 hover:scale-110 ease-in-out duration-300"
             src="/logo/tgAsset_22.svg"
