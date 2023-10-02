@@ -106,7 +106,7 @@ function HowToBuy() {
             </div>
             <div className="border-2 text-lg flex justify-center items-center p-2 rounded-lg shadow-md shadow-[rgb(123,204,255)]">
               <p>
-                Press 'Select a token' and enter the token address and you can
+                Press &apos;Select a token&apos; and enter the token address and you can
                 start swapping.
               </p>
               <img
