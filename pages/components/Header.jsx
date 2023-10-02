@@ -2,6 +2,7 @@ import React from "react";
 import ScrollButton from "./ScrollButton";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Navbar from "./BurgerNav";
 
 function Header() {
   return (
@@ -10,12 +11,12 @@ function Header() {
       whileInView={{ opacity: 1, y: "0%" }}
       viewport={{ once: true }}
       transition={{ delay: 0.3, duration: 0.4 }}
-      className="px-20 pt-6 flex items-center justify-between"
+      className="px-20 pt-6 flex items-center justify-between max-[1075px]:px-10"
     >
       <div>
         <img className="w-20" src="/pegasus.png" alt="" />
       </div>
-      <div className="w-[475px] ml-28 rounded-full px-6 py-3 bg-[#6AE7FF] bg-opacity-20">
+      <div className="w-[475px] ml-28 rounded-full px-6 py-3 bg-[#6AE7FF] bg-opacity-20 max-[1000px]:hidden">
         <div className="flex justify-between items-center">
           <ScrollButton targetId="Tokenomics">
             <p className="font-bold cursor-pointer hover:scale-110 ease-in-out duration-300">
@@ -34,7 +35,7 @@ function Header() {
           </ScrollButton>
         </div>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center max-[1000px]:hidden">
         <Link href="" rel="noreferrer" target="_blank">
           <img
             className="w-7 mr-4 hover:scale-110 ease-in-out duration-300"
@@ -53,6 +54,8 @@ function Header() {
           <p className="text-xl">Buy</p>
         </div>
       </div>
+
+      <Navbar />
     </motion.div>
   );
 }

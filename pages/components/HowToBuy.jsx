@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function HowToBuy() {
   return (
-    <div className="h-screen relative" id="How to buy">
+    <div className="h-screen relative max-[800px]:h-full" id="How to buy">
       <motion.div
         initial={{ opacity: 0, y: "-30%" }}
         whileInView={{ opacity: 1, y: "0%" }}
@@ -21,7 +21,7 @@ function HowToBuy() {
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.3, duration: 0.4 }}
-            className="flex justify-center items-center"
+            className="flex justify-center items-center px-10 max-[700px]:mb-5 max-[500px]:mb-10"
           >
             <div className="border-2 rounded-full mb-28 mr-5">
               <p className="py-1 px-2.5 shadow-md shadow-[rgb(123,204,255)] rounded-full">
@@ -47,7 +47,7 @@ function HowToBuy() {
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.3, duration: 0.4 }}
-            className="flex justify-center items-center"
+            className="flex justify-center items-center px-10 max-[700px]:mb-5 max-[500px]:mb-10"
           >
             <div className="border-2 rounded-full mb-28 mr-5">
               <p className="py-1 px-2.5 shadow-md shadow-[rgb(123,204,255)] rounded-full">
@@ -72,7 +72,7 @@ function HowToBuy() {
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.3, duration: 0.4 }}
-            className="flex justify-center items-center"
+            className="flex justify-center items-center px-10 max-[700px]:mb-5 max-[450px]:mb-8"
           >
             <div className="border-2 rounded-full mb-28 mr-5">
               <p className="py-1 px-2.5 shadow-md shadow-[rgb(123,204,255)] rounded-full">
@@ -97,7 +97,7 @@ function HowToBuy() {
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.3, duration: 0.4 }}
-            className="flex justify-center items-center"
+            className="flex justify-center items-center px-10"
           >
             <div className="border-2 rounded-full mb-28 mr-5">
               <p className="py-1 px-2.5 shadow-md shadow-[rgb(123,204,255)] rounded-full">
@@ -120,7 +120,7 @@ function HowToBuy() {
       </div>
 
       <img
-        className="absolute right-0 bottom-3 w-72 rounded-xl"
+        className="absolute right-0 -bottom-20 w-72 rounded-xl max-[1425px]:-bottom-28 max-[1425px]:-z-10 max-[1425px]:opacity-30"
         src="/pegasus image3.png"
         alt=""
       />
