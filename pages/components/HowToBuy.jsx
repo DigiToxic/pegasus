@@ -36,7 +36,7 @@ function HowToBuy() {
               </p>
               <img
                 className="ml-2 w-20"
-                src="/logo/MetaMask_Fox.svg.png"
+                src="/logo/White Ghost_docs_nu.svg"
                 alt=""
               />
             </div>
