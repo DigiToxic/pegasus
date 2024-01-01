@@ -11,7 +11,7 @@ function Tokenomics() {
         transition={{ delay: 0.3, duration: 0.4 }}
         className="flex justify-center mt-32"
       >
-        <p className="gradient-text font-bold">Tokenomics</p>
+        <p className="gradient-text font-bold">Utility</p>
       </motion.div>
 
       <div className="flex justify-evenly items-center mt-10 max-[1169px]:justify-center">
@@ -35,52 +35,32 @@ function Tokenomics() {
           transition={{ delay: 0.6, duration: 0.4 }}
           className="w-[40%] max-[1169px]:w-5/6"
         >
-          <p className="text-lg mb-12">
-            $Pegasus will have a 3/3 tax aimed at fostering continuous
-            development and effective marketing to ensure the project&apos;s
-            growth and success.
-            <br />
-            <br />
-            2% of the buy and sell tax is allocated towards development
-            initiatives, funding ongoing improvements, upgrades, and development
-            <br />
-            <br />
-            1% of the buy and sell tax is allocated towards marketing efforts
-            and strategic activities
-          </p>
-          <div className="flex justify-start items-center">
-            <div className="border-[3px] border-[#263F5F] rounded-full p-2">
+          <p className="text-2xl underline mb-12 mt-14">Cross-Chain Compatibility</p>
+
+          <div className="flex justify-start items-center mb-10">
+            <div className="border-[3px] border-[#263F5F] rounded-full p-2 mb-[95px] mr-1">
               <div className="bg-[#8ECBDF] p-1 rounded-full" />
             </div>
-            <p className="text-lg ml-2">Supply : 1 billion</p>
+            <p className="text-lg ml-2">
+              Explore AI-powered solutions for achieving cross-chain
+              compatibility. This could involve interoperability with other
+              blockchain networks, allowing Pegasus to tap into a broader
+              ecosystem and enhance liquidity.
+            </p>
           </div>
 
-          <div className="flex justify-start items-center mt-5">
-            <div className="border-[3px] border-[#263F5F] rounded-full p-2">
-              <div className="bg-[#8ECBDF] p-1 rounded-full" />
-            </div>
-            <p className="text-lg ml-2">Decimals : 18</p>
-          </div>
+          <p className="text-2xl underline mb-12">AI-Enhanced Token Staking</p>
 
-          <div className="flex justify-start items-center mt-5">
-            <div className="border-[3px] border-[#263F5F] rounded-full p-2">
+          <div className="flex justify-start items-center mb-10">
+            <div className="border-[3px] border-[#263F5F] rounded-full p-2 mb-[95px] mr-1">
               <div className="bg-[#8ECBDF] p-1 rounded-full" />
             </div>
-            <p className="text-lg ml-2">Liquidity locked at 50k MC</p>
-          </div>
-
-          <div className="flex justify-start items-center mt-5">
-            <div className="border-[3px] border-[#263F5F] rounded-full p-2">
-              <div className="bg-[#8ECBDF] p-1 rounded-full" />
-            </div>
-            <p className="text-lg ml-2">Taxes drop at 100k MC</p>
-          </div>
-
-          <div className="flex justify-start items-center mt-5">
-            <div className="border-[3px] border-[#263F5F] rounded-full p-2">
-              <div className="bg-[#8ECBDF] p-1 rounded-full" />
-            </div>
-            <p className="text-lg ml-2">100% LP (Fair launch)</p>
+            <p className="text-lg ml-2">
+              Introduce an AI-driven system for token staking. The algorithm
+              could optimize staking rewards based on factors like market
+              conditions, user behavior, and network participation, providing
+              users with a more rewarding staking experience.
+            </p>
           </div>
         </motion.div>
       </div>

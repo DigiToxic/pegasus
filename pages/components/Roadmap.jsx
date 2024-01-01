@@ -9,7 +9,7 @@ function Roadmap() {
         whileInView={{ opacity: 1, y: "0%" }}
         viewport={{ once: true }}
         transition={{ delay: 0.3, duration: 0.4 }}
-        className="flex justify-center pt-10"
+        className="flex justify-center"
       >
         <p className="gradient-text font-bold">Roadmap</p>
       </motion.div>

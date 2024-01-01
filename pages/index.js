@@ -44,9 +44,9 @@ export default function Home() {
               transition={{ delay: 1.1, duration: 0.4 }}
               className="rounded-bl-[35px] rounded-lg border-2 px-8 py-1.5 pr-5
               flex cursor-pointer shadow-md shadow-[rgb(123,204,255)]
-              hover:bg-[#263F5F] hover:translate-y-2 hover:shadow-none max-[615px]:rounded-tl-[35px] max-[615px]:rounded-bl-[0px] max-[615px]:mb-5"
+              hover:bg-[#263F5F] hover:translate-y-2 hover:shadow-none max-[615px]:rounded-tl-[35px] max-[615px]:rounded-bl-[0px] max-[615px]:mb-5 z-50"
             >
-              <p className="text-xl">DexTool</p>
+              <p className="text-xl font-bold cursor-pointer hover:scale-110 ease-in-out duration-300 z-50">DexTool</p>
               <img className="w-6 ml-4" src="/logo/dextools.svg" alt="" />
             </motion.div>
             <motion.div
@@ -54,9 +54,9 @@ export default function Home() {
               whileInView={{ opacity: 1, x: "0%" }}
               viewport={{ once: true }}
               transition={{ delay: 1.2, duration: 0.4 }}
-              className="rounded-lg border-2 px-8 py-1.5 flex cursor-pointer shadow-md shadow-[rgb(123,204,255)] hover:bg-[#263F5F] hover:translate-y-2 hover:shadow-none max-[615px]:mb-5"
+              className="rounded-lg border-2 px-8 py-1.5 flex cursor-pointer shadow-md shadow-[rgb(123,204,255)] hover:bg-[#263F5F] hover:translate-y-2 hover:shadow-none max-[615px]:mb-5 z-50"
             >
-              <p className="text-xl">DexScreener</p>
+              <p className="text-xl font-bold cursor-pointer hover:scale-110 ease-in-out duration-300 z-50">DexScreener</p>
               <img src="" alt="" />
             </motion.div>
             <motion.div
@@ -64,9 +64,9 @@ export default function Home() {
               whileInView={{ opacity: 1, x: "0%" }}
               viewport={{ once: true }}
               transition={{ delay: 1.3, duration: 0.4 }}
-              className="rounded-br-[35px] rounded-lg border-2 px-8 py-1.5 pr-9 flex cursor-pointer shadow-md shadow-[rgb(123,204,255)] hover:bg-[#263F5F] hover:translate-y-2 hover:shadow-none"
+              className="rounded-br-[35px] rounded-lg border-2 px-8 py-1.5 pr-9 flex cursor-pointer shadow-md shadow-[rgb(123,204,255)] hover:bg-[#263F5F] hover:translate-y-2 hover:shadow-none z-50"
             >
-              <p className="text-xl">DexSpy</p>
+              <p className="text-xl font-bold cursor-pointer hover:scale-110 ease-in-out duration-300 z-50">Buy</p>
               <img src="" alt="" />
             </motion.div>
           </div>

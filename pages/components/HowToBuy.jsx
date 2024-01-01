@@ -9,7 +9,7 @@ function HowToBuy() {
         whileInView={{ opacity: 1, y: "0%" }}
         viewport={{ once: true }}
         transition={{ delay: 0.3, duration: 0.4 }}
-        className="flex justify-center mt-5"
+        className="flex justify-center"
       >
         <p className="gradient-text font-bold">How to buy</p>
       </motion.div>
@@ -30,7 +30,7 @@ function HowToBuy() {
             </div>
             <div className="border-2 text-lg flex justify-center items-center p-2 rounded-lg shadow-md shadow-[rgb(123,204,255)]">
               <p>
-                Create a Metamask or Trust Wallet using either a desktop
+                Create a phantom wallet using either a desktop
                 computer or an iOS/Android mobile device. That will allow you to
                 buy, sell, send and receive $Pegasus.
               </p>
@@ -56,8 +56,8 @@ function HowToBuy() {
             </div>
             <div className="border-2 text-lg flex justify-center items-center p-2 rounded-lg shadow-md shadow-[rgb(123,204,255)]">
               <p>
-                You can buy ETH directly on MetaMask/Trust wallet or transfer it
-                to your Wallet from exchanges like Binance, KuCoin, etc.
+                You can buy SOL directly on the phantom wallet or transfer it
+                to your wallet from exchanges like Binance, KuCoin, etc.
               </p>
               <img
                 className="ml-4 w-14"
@@ -81,7 +81,7 @@ function HowToBuy() {
             </div>
             <div className="border-2 text-lg flex justify-center items-center p-2 rounded-lg shadow-md shadow-[rgb(123,204,255)]">
               <p>
-                Access your wallet to Uniswap (Connect Your Wallet) and select
+                Access your wallet to Raydium (Connect Your Wallet) and select
                 $Pegasus Coin by the Contract Address.
               </p>
               <img
